@@ -1,0 +1,95 @@
+.home {
+	background-image:url('/images/block-wall.png'); 
+	min-height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 0%;
+	background-attachment: fixed;
+}
+
+.home .container {
+	position: relative;
+	margin-top: 5%;
+	
+	/*width: 70%;*/
+	padding-bottom: 5%;
+
+	/*background-color: #ffffff;*/
+	opacity: 1;
+}
+
+.home .container img {
+	display: block;
+	margin: auto;
+	
+	height: 40%;
+	width: 60%;
+
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+.home .container .green-text {
+	text-align: center;
+	color: #00FF4F;
+
+	font-size: 1.5em;
+	font-weight: bold;
+	
+	margin-bottom: 5%;
+
+	text-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
+}
+
+.home .q-a h1 {
+	color: #ffffff;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.home .q-a p {
+	color: #ffffff;
+	font-size: 1.5em;
+	margin-bottom: 5%;
+}
+
+ol {
+	color: #ffffff;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 5%;
+}
+
+ol > li {
+	margin-bottom: 2%;
+}
+
+ul {
+	font-weight: normal;
+}
+
+.home .container .coming-soon {
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 5%;
+	font-size: 3em;
+}
+
+#contact {
+	margin-top: 5%;
+	color: #ffffff;
+	text-align: center;
+}
+
+#contact > a {
+	color: #222222;
+}
+
+.home .btn-default {
+	color: #ffffff;
+	background-color: transparent;
+	font-size: 1.2em;
+}
+.home .btn-default:hover {
+	background-color: #5a5aad;
+}
