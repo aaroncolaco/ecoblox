@@ -24,6 +24,10 @@ body {
 	text-align: center;
 }
 
+.navbar-brand img {
+	height: 2.5em;
+}
+
 .navbar-btn {
 	margin-right: 2%;
 	margin-top: 1.5%;
