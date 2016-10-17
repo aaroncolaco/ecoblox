@@ -1,6 +1,11 @@
+@font-face {
+	font-family: Aller;
+	src: url("../fonts/Aller_Rg.ttf") format('truetype'); /* TTF file for CSS3 browsers */
+}
+
 .home {
 	background-color: #388E3C;
-	background-image:url('/images/building-4.jpg'); 
+	background-image:url('/images/house.jpg'); 
 	min-height: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -12,30 +17,55 @@
 	position: relative;
 	margin-top: 5%;
 	
-	/*width: 70%;*/
 	padding-bottom: 5%;
 
 	opacity: 1;
 }
 
 .home .container .info {
-	background-color: rgba(255, 255, 255, 0.6);
 	padding-left: 2em;
 	padding-bottom: 5em;
 	margin-top: 6em;
 }
 
-.home .container .info  img {
-	/*display: block;*/
-	/*margin: auto;*/
-	
-	width: 30%;
+.home .container .info  img {	
+	width: 80%;
+	display: block;
+	margin: 0 auto;
 
-	margin-top: 2em;
+	padding-top: 4em;
 	margin-bottom: 5em;
 }
 
-.home .container .info  .description {
-	font-size: 1.8em;
-	color: #000;
+.home .container .info  .tagline {
+	font-family: Aller;
+	font-size: 3em;
+	color: #fff;
+	text-align: center;
+}
+
+.home .container .status {
+	color: #fff;
+	text-align: center;
+}
+
+.home .container .status .container {
+	width: 80%
+}
+
+.home .container .status h3 {
+	padding-top: 10%;
+	font-size: 3em;
+	padding-bottom: 5%;
+}
+
+.progress .progress-bar {
+	background-color: #85AB2F !important;
+}
+
+.home .container .status p {
+	padding-top: 10%;
+	font-size: 2em;
+
+	padding-bottom: 20%;
 }
