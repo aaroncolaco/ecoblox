@@ -1,0 +1,227 @@
+@font-face {
+	font-family: Aller;
+	src: url("../fonts/Aller_Rg.ttf") format('truetype'); /* TTF file for CSS3 browsers */
+}
+
+/* Small devices (phones, up to 768px) */
+@media (max-width: 767px) {
+
+	.home {
+		background-color: transparent;
+		/*background-image:url('/images/house.jpg'); */
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-bottom: 0%;
+		background-attachment: fixed;
+	}
+	/*To make the background stationary on mobile and prevent stretching*/
+	.home:before {
+		content: "";
+		display: block;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -10;
+		background: url('/images/house-2.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	.home .container {
+		position: relative;
+		margin-top: 5%;
+		padding-bottom: 5%;
+
+		opacity: 1;
+	}
+
+	.home .container .info {
+		padding-bottom: 5em;
+		margin-top: 6em;
+	}
+
+	.home .container .info  img {
+		width: 100%;
+		margin-top: 3em;
+		margin-bottom: 2em;
+	}
+
+	.home .container .info  .tagline {
+		font-family: Aller;
+		font-size: 1.8em;
+		color: #fff;
+		text-align: center;
+	}
+
+
+	.home .container .status {
+		color: #000;
+		text-align: center;
+	}
+
+	.home .container .status .container {
+		width: 80%;
+	}
+
+	.home .container .status h3 {
+		padding-top: 10%;
+		font-size: 2em;
+		padding-bottom: 5%;
+	}
+
+	.progress .progress-bar {
+		background-color: #85AB2F !important;
+	}
+
+	.home .container .status p {
+		padding-top: 10%;
+		font-size: 1.2em;
+		padding-bottom: 20%;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (orientation : portrait) {
+	
+	.home {
+		background-color: #388E3C;
+		background-image:url('/images/house.jpg'); 
+		min-height: 100%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-bottom: 0%;
+		background-attachment: fixed;
+	}
+
+	.home .container {
+		position: relative;
+		margin-top: 5%;
+		
+		padding-bottom: 5%;
+
+		opacity: 1;
+	}
+
+	.home .container .info {
+		padding-left: 2em;
+		padding-bottom: 5em;
+		margin-top: 6em;
+	}
+
+	.home .container .info  img {	
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+
+		padding-top: 4em;
+		margin-bottom: 5em;
+	}
+
+	.home .container .info  .tagline {
+		font-family: Aller;
+		font-size: 3em;
+		color: #fff;
+		text-align: center;
+	}
+
+	.home .container .status {
+		color: #fff;
+		text-align: center;
+	}
+
+	.home .container .status .container {
+		width: 80%;
+	}
+
+	.home .container .status h3 {
+		padding-top: 10%;
+		font-size: 3em;
+		padding-bottom: 5%;
+	}
+
+	.progress .progress-bar {
+		background-color: #85AB2F !important;
+	}
+
+	.home .container .status p {
+		padding-top: 10%;
+		font-size: 2em;
+		padding-bottom: 20%;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (orientation : landscape) {
+	.home {
+		background-color: #388E3C;
+		background-image:url('/images/house.jpg'); 
+		min-height: 100%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-bottom: 0%;
+		background-attachment: fixed;
+	}
+
+	.home .container {
+		position: relative;
+		margin-top: 5%;
+		
+		padding-bottom: 5%;
+
+		opacity: 1;
+	}
+
+	.home .container .info {
+		padding-left: 2em;
+		padding-bottom: 5em;
+		margin-top: 6em;
+	}
+
+	.home .container .info  img {	
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+
+		padding-top: 4em;
+		margin-bottom: 5em;
+	}
+
+	.home .container .info  .tagline {
+		font-family: Aller;
+		font-size: 3em;
+		color: #fff;
+		text-align: center;
+	}
+
+	.home .container .status {
+		color: #fff;
+		text-align: center;
+	}
+
+	.home .container .status .container {
+		width: 80%;
+	}
+
+	.home .container .status h3 {
+		padding-top: 10%;
+		font-size: 3em;
+		padding-bottom: 5%;
+	}
+
+	.progress .progress-bar {
+		background-color: #85AB2F !important;
+	}
+
+	.home .container .status p {
+		padding-top: 10%;
+		font-size: 2em;
+
+		padding-bottom: 20%;
+	}
+}
